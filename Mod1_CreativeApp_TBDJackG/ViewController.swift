@@ -24,8 +24,6 @@ class ViewController: UIViewController {
       
    clickerButton.isHidden = true
  }
-    
-
 
 
  @objc func updateCounter() {
