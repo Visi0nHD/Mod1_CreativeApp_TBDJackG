@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0DBB2EB2507008D0091D6BC /* Mod1_CreativeApp_TBDJackG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mod1_CreativeApp_TBDJackG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DBB2EB2507008D0091D6BC /* Mod1_CreativeApp_CPSJackG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mod1_CreativeApp_CPSJackG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DBB2EE2507008D0091D6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DBB2F02507008D0091D6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0DBB2F22507008D0091D6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		A0DBB2EC2507008D0091D6BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0DBB2EB2507008D0091D6BC /* Mod1_CreativeApp_TBDJackG.app */,
+				A0DBB2EB2507008D0091D6BC /* Mod1_CreativeApp_CPSJackG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = Mod1_CreativeApp_TBDJackG;
 			productName = Mod1_CreativeApp_TBDJackG;
-			productReference = A0DBB2EB2507008D0091D6BC /* Mod1_CreativeApp_TBDJackG.app */;
+			productReference = A0DBB2EB2507008D0091D6BC /* Mod1_CreativeApp_CPSJackG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod1-CreativeApp-TBDJackG";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mod1_CreativeApp_CPSJackG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod1-CreativeApp-TBDJackG";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mod1_CreativeApp_CPSJackG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
