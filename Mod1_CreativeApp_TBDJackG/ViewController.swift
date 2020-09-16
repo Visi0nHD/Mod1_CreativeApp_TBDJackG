@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
   
+    @IBOutlet weak var startButtonOutlet: UIButton!
     @IBOutlet weak var rulesLabel: UILabel!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -39,11 +40,19 @@ class ViewController: UIViewController {
     @IBAction func startButton(_ sender: Any) {
         clickerButton.isHidden=false
         rulesLabel.isHidden=true
+        startButtonOutlet.isHidden=true
         OurTimer.invalidate()
         OurTimer = Timer.scheduledTimer(timeInterval: 1.0, target:self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
         counter=10
         clicks=0
         scoreLabel.text=String("Score:   \(clicks)")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+            self.clickerButton.isHidden = true
+            self.startButtonOutlet.isHidden = false
+            self.rulesLabel.isHidden = false
+            
+        }
     }
  
     @IBAction func clickerButton(_ sender: Any) {
